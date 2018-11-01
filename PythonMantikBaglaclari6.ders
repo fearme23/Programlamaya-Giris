@@ -1,0 +1,32 @@
+sayi0 = int(input("Birinci sayıyı giriniz: "))            
+sayi1 = int(input("İkinci sayıyı giriniz: "))             
+sayi2 = int(input("Üçüncü sayıyı giriniz: ")) 
+
+
+            
+if sayi0 == sayi1 == sayi2:                               
+    print("Üç sayı birbirine eşittir.")
+elif sayi0 < sayi1 and sayi0 > sayi2:
+    print("1.sayi 2.sayidan küçük ve 3. sayidan büyüktür aynı zamanda bu sayiların arasındadır")
+elif sayi0 > sayi1 and sayi0 < sayi2:
+    print("1.sayi 2. sayidan büyüktür ve 3. sayıdan küçüktür aynı zamanda bu sayıların arasındadır.")
+elif sayi0 == sayi1 and sayi0 <sayi2:
+    print("1.sayi ile 2. sayi birbirine eşit, 3.sayidan ise küçüktür.")
+elif sayi0 == sayi1 and sayi0 > sayi2:
+    print("1.sayi ile 2. sayi birbirine eşit, 3.sayidan ise büyüktür.")
+elif sayi0 < sayi1 and sayi0 == sayi2:
+    print("1.sayi 2.sayidan küçük, 3.sayi ile eşittir.")
+elif sayi0 > sayi1 and sayi0 == sayi2:
+    print("1.sayi 2.sayidan buyuk, 3.sayi ile eşittir.")  
+elif sayi0 < sayi1 and sayi0 < sayi2 and sayi1 == sayi2:
+    print("1.sayi 2. ve 3. sayıdan küçüktür 2. ile 3. sayi birbirine eşittir.")
+elif sayi0 < sayi1 and sayi0 < sayi2 and sayi1 < sayi2:
+    print("1.sayi 2. ve 3. sayidan küçüktür ve aynı zamanda 2. sayi 3. sayidan küçüktür.")
+elif sayi0 < sayi1 and sayi0 < sayi2 and sayi1 > sayi2:
+    print("1. sayi 2. ve 3. sayidan küçüktür ve aynı zamanda 2. sayi 3. sayıdan büyüktür.")       
+elif sayi0 > sayi1 and sayi0 >sayi2 and sayi1 == sayi2:
+    print("1.sayi 2. ve 3.sayidan büyüktür ve aynı zamanda 2. sayi ile 3. sayi birbirine eşittir.")   
+elif sayi0 > sayi1 and sayi0 >sayi2 and sayi1 < sayi2:
+    print("1.sayi 2. ve 3. sayidan büyüktür ve aynı zamanda 2. sayi 3. sayıdan küçüktür.")
+elif sayi0 > sayi1 and sayi0 >sayi2 and sayi1 > sayi2:
+    print("1.sayi 2. ve 3. sayidan büyüktür ve aynı zamanda 2. sayi 3. sayıdan büyüktür.")
